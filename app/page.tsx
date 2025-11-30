@@ -48,9 +48,9 @@ export default function Page() {
           <div>
             <input placeholder="Enter Hex Code: " onChange={getColorInput} />
           </div>
+          <Button />
         </main>
       </div>
-      <Button />
     </div>
   );
 }
